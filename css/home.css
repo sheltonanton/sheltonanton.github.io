@@ -4,6 +4,22 @@
   align-items: center;
   justify-content: space-around;
   margin: 20px;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.home-left-pane:hover,.home-right-pane:hover {
+  transition: 400ms;
+  transform:translateY(-5px);
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.home-left-pane {
+  background-color: fefcfe;
+}
+
+.home-right-pane {
+  background-color: #ffffff;
 }
 
 .home-pane-wrapper {
@@ -11,4 +27,3 @@
   justify-content: space-evenly;
 
 }
- 
