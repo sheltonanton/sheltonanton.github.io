@@ -1,3 +1,7 @@
+.home-title {
+  padding-top: 80px;
+  padding-left: 40px;
+}
 .home-left-pane,.home-right-pane {
   border: 1px solid #aabbcc;
   flex: 1;
