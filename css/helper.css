@@ -1,3 +1,17 @@
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
+
+.container {
+  margin: 8px 60px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -5,5 +19,5 @@
 
 .flex-col {
   display: flex;
-  flex-direction: col;
+  flex-direction: column;
 }

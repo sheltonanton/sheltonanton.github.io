@@ -1,0 +1,24 @@
+.nav-bar-top {
+  border-bottom: 1px solid #ddd;
+
+}
+.nav-bar-top li {
+  display: inline-block;
+  list-style-image: none;
+  padding: 8px;
+  margin: 4px;
+  color: #aaa;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  border-radius: 100px;
+  transition: 300ms;
+}
+
+.nav-bar-top li:hover{
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #4f47b8;
+  border-radius: 0px;
+  color: #4f47b8;
+  transition: 300ms;
+}

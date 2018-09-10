@@ -2,30 +2,61 @@
   <head>
     <title>Adventure Starts</title>
     <link rel="stylesheet" type="text/css" href="css/helper.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
   </head>
   <body>
     <h1 class="home-title">Adventure Starts</h1>
     <hr>
-    <p>
-      <center>
-        <em>
-          Every story begins with something a spark which will later be enormously built into a raging fire.
-        </em>
-    </center>
-    </p>
-    <div class="home-pane-wrapper flex-row">
-      <div class="home-left-pane flex-col">
+    <div class="container">
+      <nav>
+        <ul class="nav-bar-top">
+          <li>My bad habits</li>
+          <li>That's not why I mean</li>
+          <li>Rockstar Reborn</li>
+          <li>Scaredy Cat</li>
+        </ul>
+      </nav>
+      <p>
+        <center>
+          <em>
+            Every story begins with something a spark which later builds into raging fire
+            <span class="align-center">
+              - <strong>Shelton</strong>
+            </span>
+          </em>
+        </center>
+      </p>
+      <div class="home-pane-wrapper flex-row">
+        <div class="home-left-pane flex-col">
           <h3 style="text-align: center;">MY PERSONALS</h3>
           <img src="images/dog.gif" class="home-left-pane__img"/>
-      </div>
-      <div class="home-right-pane flex-col">
+        </div>
+        <div class="home-right-pane flex-col">
           <h3 style="text-align: center;">GO ON WITH MY PROFESSION</h3>
           <img src="images/walking.gif" class="home-left-pane__img"/>
+        </div>
+      </div>
+      <div>
+
       </div>
     </div>
-    <div>
-
+    <div class="home-checkboxes">
+      <div class="flex-col flex-wrap" id="home-checkbox-container">
+        <!-- <div  name="violet" class="checkbox" style="border-color:#4f47b8;"></div>
+        <div  name="violet" class="checkbox" style="border-color:violet;"></div>
+        <div  name="violet" class="checkbox" style="border-color:green;"></div>
+        <div  name="violet" class="checkbox" style="border-color:orange;"></div>
+        <div  name="violet" class="checkbox" style="border-color:red;"></div>
+        <div  name="violet" class="checkbox" style="border-color:grey;"></div>
+        <div  name="violet" class="checkbox" style="border-color:blue;"></div>
+        <div  name="violet" class="checkbox" style="border-color:silver;"></div>
+        <div  name="violet" class="checkbox" style="border-color:black;"></div> -->
+      </div>
     </div>
+    <script type="text/javascript" src="js/checkbox-container.js"></script>
+    <script type="text/javascript">
+      init("home-checkbox-container");
+    </script>
   </body>
 </html>
