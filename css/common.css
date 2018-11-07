@@ -1,0 +1,36 @@
+.flex-row {
+	display: flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	-ms-flex-direction: row;
+}
+
+.flex-align-center {
+	align-items: center;
+	-ms-flex-align: center;
+	justify-content: center;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
+
+.flex-justify-distribute {
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+button {
+	border: 1px solid #888;
+	padding: 5px;
+	margin: 5px;
+}
+
+button:hover {
+	border: 1px solid black;
+}
+
+.normal-size {
+	font-size: 40px;
+}
