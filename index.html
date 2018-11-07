@@ -14,12 +14,13 @@
 	  justify-content: center;
 	}
 	button {
-		border: 1px solid #888;
-		padding: 5px;
-		margin: 5px;
+		border: 2px solid #888;
+		padding: 15px;
+		margin: 15px;
+		font-size: 20px;
 	}
 	button:hover {
-		border: 1px solid black;
+		border: 2px solid black;
 	}
 	.wrapper {
 		padding: 8px;
@@ -52,7 +53,7 @@
 
                 reader.onload = function (e) {
                     $('#blah').attr('src', e.target.result);
-					$('#blah').attr('width', '500px');
+					$('#blah').attr('width', '1000px');
                 }
                 reader.readAsDataURL(input.files[0]);
             }
