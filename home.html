@@ -1,32 +1,33 @@
 <html>
-<head>
-<title>See your photo</title>
-<link rel='stylesheet' href='css/common.css' type='text/css'/>
-<style type='text/css'>
-	.wrapper {
-		width: 100%;
-		height: fit-content;
-		overflow-y: auto;
-	}
-	.nav_card{
-		flex: 1;
-		min-width: 400px;
-		height: 400px;
-		margin: 10px;
-		border: 5px solid black;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		font-size: 50px;
-	}
 
-</style>
+<head>
+	<title>See your photo</title>
+	<link rel='stylesheet' href='css/common.css' type='text/css' />
+	<style type='text/css'>
+		.wrapper {
+			width: 100%;
+			height: fit-content;
+			overflow-y: auto;
+		}
+
+		.nav_card {
+			flex: 1;
+			min-width: 400px;
+			height: 400px;
+			margin: 10px;
+			border: 5px solid black;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-size: 50px;
+		}
+	</style>
 </head>
+
 <body>
 	<div class='wrapper flex-row flex-wrap flex-justify-distribute'>
-		<div class='nav_card' style="background-color: #ff5050; color: white; border-color: #ff1050;"
-			onclick="window.location='takepicture.html';">
+		<div class='nav_card' style="background-color: #ff5050; color: white; border-color: #ff1050;" onclick="window.location='takepicture.html';">
 			<div>Upload Picture</div>
 		</div>
 		<div class='nav_card' style="background-color: #009933; color: white; border-color: #007733;">
@@ -41,7 +42,8 @@
 		<div class='nav_card' style="background-color: #ff9900; color: white; border-color: #ff7700;">
 			<div>Comments</div>
 		</div>
-		
+
 	</div>
 </body>
+
 </html>
