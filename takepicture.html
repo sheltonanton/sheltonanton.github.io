@@ -36,6 +36,7 @@
 			<div class='wrapper'>
 				<img src="#" id="blah" width="0px">
 				<div class='flex-row flex-align-center'>
+					<button onclick="javascript: uploadPicture();">Upload Picture</button>
 					<button onclick="javascript: openCamera();" style='padding: auto;'>Take a picture</button>
 					<button onclick="javascript: clearScreen();">Cancel</button>
 				</div>
@@ -49,8 +50,13 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type='text/javascript'>
 			function openCamera() {
-				var input = document.getElementById("buttonforcamera");
-				input.click();
+				$('#buttonforcamera').attr('capture','camera');
+				$('#buttonforcamera').click();
+			}
+
+			function uploadPicture() {
+				$('#buttonforcamera').attr('capture','');
+				$('#buttonforcamera').click();
 			}
 
 			function readURL(input) {
